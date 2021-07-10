@@ -13,4 +13,4 @@ In the image_captioning_.ipynb we download the datasets and all of the preproces
 - **Score:** Mean cosine similarity between the 5 true captions and the predicted caption.  
 
 
-The prediciton.ipynb will be used for loading the weights and models for direct prediciton of new images.
+The predicitons.ipynb will be used for loading the weights and models for direct prediciton of new images.
