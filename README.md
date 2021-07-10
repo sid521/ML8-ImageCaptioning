@@ -7,7 +7,7 @@ In the image_captioning_.ipynb all of the preprocessing training and evaluation 
 - **Dataset Used:** MS-COCO(subset containing 6000 randomly shuffled images)
 - **Vocabulary:** The vocabulary consists of mapping between words and indices(we limited the size of vocabulary to 5000 instead of 10000 as discussed in paper to save memory)
 - **Encoder:** ResNet without the final classification layer with pretrained weights. we could also try trainig the encoder instead of loading pretrained weights.
-- **Decoder:** GRU(Gated recurrent unit) is used as decoder with [bahdanu attention](https://arxiv.org/pdf/1409.0473.pdf). Using attention based architechture we can observe which parts of images were identified for generating words(or captions).
+- **Decoder:** GRU(Gated recurrent unit) is used as decoder with [Bahdanau attention](https://arxiv.org/pdf/1409.0473.pdf). Using attention based architechture we can observe which parts of images were identified for generating words(or captions).
 - **Caption Generation:** Based on highest probability instead of beam search.
 - **Training:** Teacher forcing is used to reduce training time for the RNN.
 - **Score:** Mean cosine similarity between the 5 true captions and the predicted caption.  
