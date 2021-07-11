@@ -1,5 +1,6 @@
 # ML8-ImageCaptioning
-This project is created as part of IITISoC'21 by Team ML8: [Aditya Gouroju](https://github.com/StrawHat369), [Potu Sidhartha Reddy](https://github.com/sid521), [Pepeti Venkata Sai Kesava Siddhardha](https://github.com/pepetikesavasiddhardha) 
+This project is created as part of IITISoC'21 by Team ML8: [Aditya Gouroju](https://github.com/StrawHat369), [Potu Sidhartha Reddy](https://github.com/sid521), [Pepeti Venkata Sai Kesava Siddhardha](https://github.com/pepetikesavasiddhardha)
+
 Mentors - Aryan Rastogi, Bharat Gupta, Sakshee Patil, Kashish Bansal
 ## Overview
 Image captioning using attention based encoder-decoder model.The idea is discussed in [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044). Recurrent Neural Networks (RNN) are used for varied number of applications including machine translation. The Encoder-Decoder architecture is utilized for such settings where a varied-length input sequence is mapped to the varied-length output sequence. The same network can also be used for image captioning. We used a ResNet with pretrained weights as encoder to make feature vectors from the input images and GRU an variant of RNN as decoder.
