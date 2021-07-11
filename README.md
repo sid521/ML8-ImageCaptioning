@@ -13,7 +13,7 @@ In the image_captioning_.ipynb we download the datasets and all of the preproces
 - **Decoder:** GRU(Gated recurrent unit) is used as decoder with [Bahdanau attention](https://arxiv.org/pdf/1409.0473.pdf). Using attention based architechture we can observe which parts of images were identified for generating words(or captions).
 - **Caption Generation:** Based on highest probability instead of beam search.
 - **Training:** Teacher forcing is used to reduce training time for the RNN.
-- **Score:** Mean cosine similarity between the 5 true captions and the predicted caption.  
+- **Score:** Mean cosine similarity between the 5 true captions and the predicted caption. Mean cosine similarity of 10 random images :  0.2026602043250037
 
 
 The predicitons.ipynb will be used for loading the weights and models for direct prediciton of new images.
