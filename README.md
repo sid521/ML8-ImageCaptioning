@@ -19,7 +19,7 @@ In the image_captioning_.ipynb we download the datasets and all of the preproces
 The predicitons.ipynb will be used for loading the weights and models for direct prediciton of new images.
 
 ## References
-[ Image captioning with visual attention ](https://www.tensorflow.org/tutorials/text/image_captioning)
-[Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)
-[The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
-[Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [ Image captioning with visual attention ](https://www.tensorflow.org/tutorials/text/image_captioning)
+- [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)
+- [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+- [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
