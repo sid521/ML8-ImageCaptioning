@@ -4,7 +4,7 @@ This project is created as part of IITISoC'21 by Team ML8: [Aditya Gouroju](http
 Mentors - Aryan Rastogi, Bharat Gupta, Sakshee Patil, Kashish Bansal
 ## Overview
 Image captioning using attention based encoder-decoder model.The idea is discussed in [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044). Recurrent Neural Networks (RNN) are used for varied number of applications including machine translation. The Encoder-Decoder architecture is utilized for such settings where a varied-length input sequence is mapped to the varied-length output sequence. The same network can also be used for image captioning. We used a ResNet with pretrained weights as encoder to make feature vectors from the input images and GRU an variant of RNN as decoder.
-Now for Video Summarization using OpenCV library we will capture frames in video at specific time interval(1 frame per 3 sec) and we will generate captions to all these frames using above said Image captioning model and then we perform Abstractive Summarization using T5 base Transformer model
+Now for Video Summarization using OpenCV library we will capture frames in video at specific time interval(1 frame per 3 sec) and we will generate captions to all these frames using above said Image captioning model and retain only those captions which have a low similarity score with the immediate previous caption and that Threshold similarity score is 0.5.Then we perform Abstractive Summarization using T5 base Transformer model
 
 ## Implementation
 In the image_captioning_.ipynb we download the datasets and all of the preprocessing training and evaluation takes place.
