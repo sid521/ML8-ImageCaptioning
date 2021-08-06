@@ -15,6 +15,7 @@ In the image_captioning_.ipynb we download the datasets and all of the preproces
 - **Caption Generation:** Based on highest probability/greedy search.
 - **Training:** Teacher forcing is used to reduce training time for the RNN.
 - **Score:** Mean cosine similarity between the 5 true captions and the predicted caption. Mean cosine similarity of 10 random images :  0.5179586030433062
+- **Video to frames:** Using OpenCV
 - **Transformer used(for Summarization):** T5 base
 
 
