@@ -18,7 +18,7 @@ In the image_captioning_.ipynb we download the datasets and all of the preproces
 - **Video to frames:** Using OpenCV
 - **Transformer used(for Summarization):** T5 base
 
-
+**Hyperparameters involved in Image captioning:**
 Hyper parameter| Value
 -------------  | -------------
 Embedding size |   256
@@ -31,6 +31,15 @@ FC1 units      |   512
 FC2 units      |   512
 FC3 units      |   5001
 Dropout        |   0.25
+
+**Hyperparameters involved in Video Summarization:**
+Hyper parameter| Value
+-------------  | -------------
+max_length     |   512
+min_length     |   50
+length_penalty |   2.0
+num_beams      |   4
+early_stopping |   True
 
 The predicitons.ipynb will be used for loading the weights and models for direct prediciton of new images.
 
