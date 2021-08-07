@@ -67,3 +67,4 @@ The prediction_beam.ipynb will be used for loading the weights and models for di
 - [Lecture 8:Machine Translation,Sequence-to-sequence and Attention CS224N](http://web.stanford.edu/class/cs224n/slides/cs224n-2019-lecture08-nmt.pdf)
 - [LSTM is dead. Long Live Transformers!](https://youtu.be/S27pHKBEp30)
 - [Illustrated Guide to Transformers Neural Network: A step by step explanation](https://youtu.be/4Bdc55j80l8)
+- [Attention? Attention!](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
