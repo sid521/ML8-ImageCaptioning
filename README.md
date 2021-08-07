@@ -50,3 +50,5 @@ The predicitons.ipynb will be used for loading the weights and models for direct
 - [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 - [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [Lecture 8:Machine Translation,Sequence-to-sequence and Attention CS224N](http://web.stanford.edu/class/cs224n/slides/cs224n-2019-lecture08-nmt.pdf)
+- [LSTM is dead. Long Live Transformers!](https://youtu.be/S27pHKBEp30)
+- [Illustrated Guide to Transformers Neural Network: A step by step explanation](https://youtu.be/4Bdc55j80l8)
