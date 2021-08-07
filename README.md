@@ -57,7 +57,7 @@ length_penalty |   2.0
 num_beams      |   4
 early_stopping |   True
 
-The predicitons.ipynb will be used for loading the weights and models for direct prediciton of new images.
+The prediction_beam.ipynb will be used for loading the weights and models for direct prediciton of new images and videos
 
 ## References
 - [ Image captioning with visual attention ](https://www.tensorflow.org/tutorials/text/image_captioning)
