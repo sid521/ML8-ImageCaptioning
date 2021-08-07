@@ -43,7 +43,6 @@ Vocabulary size|   5001
 Batch Size     |   64
 GRU 1 Output   |   512
 GRU 2 Output   |   512
-GRU 3 Output   |   512
 FC1 units      |   512
 FC2 units      |   512
 FC3 units      |   5001
