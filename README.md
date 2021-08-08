@@ -57,7 +57,7 @@ length_penalty |   2.0
 num_beams      |   4
 early_stopping |   True
 
-The prediction_beam.ipynb will be used for loading the weights and models for direct prediciton of new images and videos
+The prediction_beam.ipynb will be used for loading the weights and models for direct prediciton of new images and videos. You can find the weights,resnet model and tokenizer trained on taking random 50k subset images [here](https://drive.google.com/drive/folders/1f_G7w1mrYfBLKkxIFuy9xfWzn48Y32nx?usp=sharing)
 
 ## Results
    ![ss2](https://user-images.githubusercontent.com/70747076/128628236-10af847c-fef1-4de2-bcc6-4f1059dacc89.jpeg)
