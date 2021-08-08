@@ -63,6 +63,8 @@ The prediction_beam.ipynb will be used for loading the weights and models for di
    ![ss2](https://user-images.githubusercontent.com/70747076/128628236-10af847c-fef1-4de2-bcc6-4f1059dacc89.jpeg)
    ![final_prediction](https://user-images.githubusercontent.com/70747076/128628189-21c8627b-0380-4ad7-a2aa-1cdcff146212.jpeg)
 
+## Future Enhancements
+- [Audio Visual Scene-Aware Dialog](https://openaccess.thecvf.com/content_CVPR_2019/papers/Alamri_Audio_Visual_Scene-Aware_Dialog_CVPR_2019_paper.pdf)
 
 ## References
 - [ Image captioning with visual attention ](https://www.tensorflow.org/tutorials/text/image_captioning)
