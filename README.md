@@ -60,6 +60,7 @@ early_stopping |   True
 The prediction_beam.ipynb will be used for loading the weights and models for direct prediciton of new images and videos
 
 ## Results
+   ![final_prediction](https://user-images.githubusercontent.com/70747076/128628189-21c8627b-0380-4ad7-a2aa-1cdcff146212.jpeg)
 
 ## References
 - [ Image captioning with visual attention ](https://www.tensorflow.org/tutorials/text/image_captioning)
