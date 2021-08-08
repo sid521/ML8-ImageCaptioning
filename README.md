@@ -59,6 +59,8 @@ early_stopping |   True
 
 The prediction_beam.ipynb will be used for loading the weights and models for direct prediciton of new images and videos
 
+## Results
+
 ## References
 - [ Image captioning with visual attention ](https://www.tensorflow.org/tutorials/text/image_captioning)
 - [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)
